@@ -1,0 +1,23 @@
+{
+  "name": "multi-user-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Multi-user WhatsApp Bot with Web Pairing and Custom Commands.",
+  "main": "bot_server.js",
+  "scripts": {
+    "start": "node bot_server.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot",
+    "multiuser"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "6.5.0",
+    "express": "^4.18.2",
+    "pino": "^8.1.0",
+    "qrcode": "^1.5.1"
+  }
+}
